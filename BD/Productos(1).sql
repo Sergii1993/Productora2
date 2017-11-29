@@ -70,7 +70,6 @@ CREATE TABLE `sonido` (
 --
 
 INSERT INTO `sonido` (`Id`, `Descripcion`, `tipo`) VALUES
-(0, 'Doe', 'john@example.com'),
 (1, 'asd1000W', 'AutoAmplif'),
 (2, 'JBL Serie 500', 'AutoAmplif'),
 (3, 'AVL250', 'AutoAmplif'),
