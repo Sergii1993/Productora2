@@ -34,6 +34,12 @@
 			<li><a href="Contacto.php">Contacto</a></li>
 </ul> 
 
+  <div id="Login">
+	   <span style="color:#999;font-size:0.8em"><?php echo "(".$_SESSION["username"].") "; ?></span>
+	   <a href="login.php" target="_blank">Iniciar Sesión</a>
+	   <a href="logout.php">Cerrar Sesión</a>
+</div>
+
 </form>
 </body>
 </html>
